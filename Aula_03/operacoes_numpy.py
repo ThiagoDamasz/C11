@@ -19,3 +19,4 @@ print(mtz.sum(axis=1))
 
 #Broadcasting
 print(mtz/10)
+
