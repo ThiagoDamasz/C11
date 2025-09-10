@@ -34,8 +34,6 @@ print('Paises da America do Norte: ', sum(num_AN), '\n')
 #5
 num2 = ds[1:, 8].astype(float)
  
-regiao == np.char.find(regiao, 'LATIN AMER. & CARIB') >= 0
- 
 gdp = num2[regiao == 'LATIN AMER. & CARIB']
  
 print('O maior GPD da Ameria Latina e Caribe: ', gdp)
